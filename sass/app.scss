@@ -1,0 +1,265 @@
+@mixin baby-bear {
+  @media (min-width: 650px)  { 
+  	@content;
+  }
+}
+
+
+ul {
+	list-style: none;
+}
+
+html,
+body {
+	height: 100%;	
+}
+
+$pink: #e33e63;
+$creme: #ecfff5;
+$deep-purple: #333745;
+
+body {
+	background: $pink;
+	margin: 0;
+	font-family: helvetica, arial, sans-serif;
+	color: $creme;
+	line-height: 1.6em;
+}
+
+
+h1 {
+	margin: 0 0 .5em;
+	color: $deep-purple;
+}
+
+.subtitle {
+
+}
+
+.wrap {
+	margin: 0 auto;
+	height: 100%;
+}
+
+.left,
+.right {
+	@include baby-bear {
+		float: left;
+		padding-top: 4em;
+	}
+}
+
+.left {
+	width: auto;
+	@include baby-bear {
+		width: 35%;
+	}	
+}
+
+.right {
+	width: auto;
+	height: 100%;
+	background: #ecfff5;
+	@include baby-bear {
+		width: 65%;
+	}	
+}
+
+
+.col-right {
+	// max-width: 400px;
+	// height: 400px;
+	@include baby-bear {
+		padding: 4em;
+	}	
+}
+
+.col-left {
+	max-width: 400px;
+	padding: 1em;
+	@extend .col-right;
+	@include baby-bear {
+		float: right;
+		padding: 4em;
+	}		
+}
+
+hr {
+	margin: 1em 0;
+	border-top: none;
+	opacity: .3;
+}
+
+.colophon {
+	a {
+		color: $creme;
+	}
+}
+
+
+.overlay-screen {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+	display: none;
+	opacity: 0.8;
+	background: $deep-purple;
+}
+
+.overlay-screen__great-job {
+	margin-top: 35%;
+	font-size: 3em;
+}
+
+.overlay-screen__score {
+	padding: 0 2em;
+	line-height: 1.5em;
+	font-size: 1.6em;
+}
+
+.overlay-screen__btn {
+	color: $pink;
+	background: $creme;
+	padding: .6em 1.2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: opacity .5s ease;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: .5em;
+	&:hover {
+		opacity: 0.8;
+	}
+}	
+
+
+
+
+.gridster {
+	position: relative;
+	margin-bottom: 2em;
+	height: 100%;
+	ul {
+		padding: 0;
+	}
+	li {
+		&:before {
+			display: block;
+			content: "";
+			width: 100%;
+			height: 100%;
+			background: rgba(255, 255, 255, 0.4);
+			transition: background .4s ease;
+		}		
+		//need to reposition/resize based on percentages
+		background: url('../images/puzzle.svg');
+		transition: all .3s ease;
+		// background-size: 400px 500px;
+		&:hover {
+			cursor: pointer;
+		}
+		&:active {
+			cursor: -webkit-grab;
+		}
+	}
+}
+
+.preview-holder {
+	background: none !important;
+}
+
+.time-bar-wrap {
+	height: 100%;
+	overflow: hidden;
+	width: 1.3%;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	left: -1.3%;
+	z-index: 100;
+	background: $creme;
+}
+.time-bar {
+	// width: 100%;
+	// background: #fff;
+	height: 100%;
+
+	-webkit-animation: anim 179s linear;
+}
+
+.times-up {
+	background: $pink;
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1000;
+	text-align: center;
+	display: table;
+	transition: opacity 1s ease;
+	p {
+		font-size: 4em;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.timer {
+	font-size: 3em;
+	font-weight: bold;
+	// text-align: center;
+	text-transform: uppercase;
+	@extend h1;
+
+}
+
+.time {
+	color: desaturate(darken($creme, 12%), 85%);
+	font-size: 3em;
+	p {
+		margin: 0;
+	}
+}
+
+@-webkit-keyframes anim {
+	from {
+		background: $pink;
+		-webkit-transform: translateY(0);
+	}
+	to {
+		background: $deep-purple;
+
+		-webkit-transform: translateY(100%);
+	}
+}
+
+.js--hide {
+	display: none;
+}
+
+.js--show {
+	display: block;
+}
+
+.js--correct {
+	&:before {
+		background: none !important;
+	}
+	// background: #fff !important;
+	
+}
+
+// $scene: (
+//   loading   :  #b94a48,
+//   start   :  #468847,
+//   set :  #c09853,
+//   info    :  #3a87ad
+// ) !default;
+
+// @each $type, $color in $message-types {
+//   .message-#{$type} {
+//     @include message($color);
+//   }
+// }

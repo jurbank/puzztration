@@ -1,0 +1,20 @@
+var game = {
+	init: function() {
+		this.scenes.loading.run();
+	},
+	scenes: {
+		loading: {
+			run: function() {
+				console.log("test")
+				
+			}
+		},
+		start: {},
+		set: {},
+		play: {},
+		over: {},
+		settings: {}
+	}
+};
+
+game.init();

@@ -1,0 +1,7 @@
+*.DS_Store
+*.sass-cache/*
+*.css
+ck
+node_modules
+bower_components
+gulpfile-ck.js

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/jquery.gridster.min.css">
+	
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="js/jquery.gridster.min.js"></script>
+	<script src="js/app.js"></script>
+	<script>
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+<!-- 	<div class="times-up">
+		<p>TIMES UP!</p>
+	</div> -->
+
+	<div class="wrap">
+		<div class="left">
+			<div class="col-left">
+				<h1>PUZZSTRATION</h1>
+				<p class="subtitle">Beat the clock!</p>
+				<p>In the vein of simple games like 2048, Puzzstration Is a simple game in which you test your speed. <br><br> Good luck!</p>
+				<hr>
+				<p class="colophon">Puzzstration is creted by <strong><a href="#">@johnurbank</a></strong></p>
+
+				<hr>
+				<!-- <div class="timer">Time Remaining - 3:00</div> -->
+			</div>
+		</div>
+
+		<!-- <div class="time-bar"></div> -->
+		
+		<div class="right">
+			<div class="col-right">
+				<div class="gridster">
+
+					<div class="overlay-screen js--game-start js--show">
+						<p class="overlay-screen__great-job">Welcome!</p>
+						<a href="" class="overlay-screen__btn js--btn">I'm Ready!</a>
+					</div>
+					<div class="overlay-screen js--game-over js--hide">
+						<p class="overlay-screen__great-job">Great Job</p>
+						<a href="" class="overlay-screen__btn js--btn">Play Again</a>
+						<p class="overlay-screen__score">You completed the puzzle in 24 secconds!</p>
+					</div>				
+			    <ul>
+			 			<li id="1" data-row="1" data-col="1" data-sizex="1" data-sizey="1"></li>
+			      <li id="2" data-row="1" data-col="2" data-sizex="1" data-sizey="1"></li>
+			      <li id="3" data-row="1" data-col="3" data-sizex="1" data-sizey="1"></li>
+			      <li id="4" data-row="1" data-col="4" data-sizex="1" data-sizey="1"></li>
+
+			      <li id="5" data-row="2" data-col="1" data-sizex="1" data-sizey="1"></li>
+			      <li id="6" data-row="2" data-col="2" data-sizex="1" data-sizey="1"></li>
+			      <li id="7" data-row="2" data-col="3" data-sizex="1" data-sizey="1"></li>
+			      <li id="8" data-row="2" data-col="4" data-sizex="1" data-sizey="1"></li>
+
+			      <li id="9" data-row="3" data-col="1" data-sizex="1" data-sizey="1"></li>
+			      <li id="10" data-row="3" data-col="2" data-sizex="1" data-sizey="1"></li>
+			      <li id="11" data-row="3" data-col="3" data-sizex="1" data-sizey="1"></li>
+			      <li id="12" data-row="3" data-col="4" data-sizex="1" data-sizey="1"></li>
+
+			      <li id="13" data-row="4" data-col="1" data-sizex="1" data-sizey="1"></li>
+			      <li id="14" data-row="4" data-col="2" data-sizex="1" data-sizey="1"></li>
+			      <li id="15" data-row="4" data-col="3" data-sizex="1" data-sizey="1"></li>
+			      <li id="16" data-row="4" data-col="4" data-sizex="1" data-sizey="1"></li>
+
+			      <li id="17" data-row="5" data-col="1" data-sizex="1" data-sizey="1"></li>
+			      <li id="18" data-row="5" data-col="2" data-sizex="1" data-sizey="1"></li>
+			      <li id="19" data-row="5" data-col="3" data-sizex="1" data-sizey="1"></li>
+			      <li id="20" data-row="5" data-col="4" data-sizex="1" data-sizey="1"></li>     
+			    </ul>
+			    <div class="time-bar-wrap">
+			    	<div class="time-bar js--hide"></div>
+			    </div>	    
+				</div>
+
+		    <div class="time">
+		    	<p class="js--time">3:00</p>
+		    </div>								
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
