@@ -7,8 +7,10 @@ $(document).ready(function() {
 
 	/* GET WIDTH OF PUZZLE CONTAINER
 	--------------------------------------- */
-	puzzleContainerWidth = $('.right').width();
-	newSize = Math.floor(puzzleContainerWidth/9);
+	// puzzleContainerWidth = $('.right').width();
+	// newSize = Math.floor(puzzleContainerWidth/9);
+
+	newSize = 110;
 
 
 
