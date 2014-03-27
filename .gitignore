@@ -3,5 +3,5 @@
 *.css
 ck
 node_modules
-bower_components
+app/bower_components
 gulpfile-ck.js
