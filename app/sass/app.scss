@@ -20,9 +20,13 @@ $deep-purple: #333745;
 
 body {
 	margin: 0;
-	font-family: helvetica, arial, sans-serif;
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	font-size: .9em;
 	color: $creme;
-	line-height: 1.6em;
+	line-height: 1.7em;
+	@include baby-bear {
+		font-size: 1.3em;
+	}
 }
 
 
@@ -54,7 +58,7 @@ h1 {
 	&:after {
 		content: "";
 		display: block;
-		background: #e33e63;
+		background: $pink;
 		height: 100%;
 		transform: rotateZ(-7deg);
 		position: absolute;
@@ -78,11 +82,14 @@ h1 {
 }
 
 .section__container {
-	max-width: 600px;
+	max-width: 550px;
 	margin: 0 auto;
-	padding: 10% 10% 0;
+	padding: 5% 5% 0;
 	position: relative;
 	z-index: 11;
+	// @include baby-bear {
+	// 	padding: 10% 10% 0;
+	// }	
 }
 
 

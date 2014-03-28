@@ -203,7 +203,7 @@ $(document).ready(function() {
 	});
 
 	var removeOverlay = function() {
-		$('.overlay-screen').fadeOut(function(){
+		$('.overlay-screen, .section-top__crop, .js--game-start').fadeOut(function(){
 			$(this).removeClass('js--show');
 		});
 	}
