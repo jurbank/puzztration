@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+	 enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="1056" height="1080" y="-1028" x="-31" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Layer_2">
+	<rect x="-31" y="-52" fill="#EF4370" width="1056" height="1080"/>
+</g>
+<g id="Layer_1">
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		221.9,640.5 333.8,277.8 609.7,640.5 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		609.7,638.6 703,415 827.7,663.7 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		609.7,638.6 333.8,276 711.9,393.7 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		415.8,906.5 609.7,638.4 827.7,663.7 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		703,415 805.2,170 827.7,663.7 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		415.8,908.6 221.9,640.5 609.7,640.5 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		457.1,314.4 333.8,276 415.8,85 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		333.8,276 102.3,250.9 243.4,85 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		243.4,86.5 102.3,250.9 127.4,0 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		703,415 457.1,314.4 805.2,170 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		457.1,314.4 415.8,85 805.2,170 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		333.8,277.5 243.4,86.5 415.8,86.5 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		221.9,638.6 102.3,250.9 333.8,276 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		273.3,472.3 153.5,416.9 243.4,266.2 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		101.8,250.9 -0.5,385.3 -0.5,139 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		153.5,416.9 0,385.3 102.3,250.9 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		584.3,675.1 374.9,851.6 395.5,640 	"/>
+	<polygon opacity="0.17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="
+		560.2,573.6 221.9,638.6 410.1,376.2 	"/>
+</g>
+</svg>
